@@ -1,8 +1,8 @@
 %define		_arch	i386
 %define		_pver	4.1
 
-Summary:	Linux Terminal Server Project - Core system for terminals
-Summary(pl):	Podstawowy system dla terminali z Linux Terminal Server Project
+Summary:	Linux Terminal Server Project - X servers 3.3.6
+Summary(pl):	X serwery w wersji 3.3.6 dla terminali z Linux Terminal Server Project
 Name:		ltsp_x336
 Version:	4.0.1
 Release:	0.1
@@ -51,13 +51,17 @@ typically run on the server and accept input and display their output
 on the thin client display. LTSP is available as a set of packages that
 can be installed on any Linux system.
 
-This package contains x366 for LTSP terminals.
+This package contains X servers 3.3.6 for LTSP terminals.
 
 %description -l pl
-- Jak obni¿yæ koszty I ocaliæ planetê?
-- Przekszta³ciæ te stare pecety na X-terminale z u¿yciem LTSP.
+LTSP to dodatkowy pakiet dla Linuksa pozwalaj±cy na pod³±czenie wielu
+cienkich klientów jako terminali do serwera linuksowego. Aplikacje
+zwykle dzia³aj± na serwerze i przyjmuj± wej¶cie oraz wy¶wietlaj±
+wyj¶cie na wy¶wietlaczach cienkich klientów. LTSP jest dostêpny jako
+zestaw pakietów, które mo¿na zainstalowaæ na dowolnym systemie
+linuksowym.
 
-Ten pakiet zawiera x366 dla terminali LTSP.
+Ten pakiet zawiera X serwery w wersji 3.3.6 dla terminali LTSP.
 
 %prep
 %setup -q -n ltsp-utils
