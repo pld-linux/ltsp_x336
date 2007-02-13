@@ -2,7 +2,7 @@
 %define		_pver	4.1
 
 Summary:	Linux Terminal Server Project - X servers 3.3.6
-Summary(pl.UTF-8):   X serwery w wersji 3.3.6 dla terminali z Linux Terminal Server Project
+Summary(pl.UTF-8):	X serwery w wersji 3.3.6 dla terminali z Linux Terminal Server Project
 Name:		ltsp_x336
 Version:	4.0.1
 Release:	0.1
